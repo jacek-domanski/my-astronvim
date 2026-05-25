@@ -4,7 +4,7 @@
 
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
-## 🛠️ Installation
+## 🛠️ Installation (Linux)
 
 #### Make a backup of your current nvim and shared folder
 
@@ -31,4 +31,19 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 
 ```shell
 nvim
+```
+
+## Installation (Windows)
+
+#### Backup
+Back up or remove everything nvim releated in ~/AppData/Local/
+```shell
+cd ~/AppData/Local/
+find nvim* -delete
+```
+
+#### Clone the repo
+```shell
+cd ~/AppData/Local/
+git clone git@github.com:jacek-domanski/my-astronvim.git ./nvim
 ```
